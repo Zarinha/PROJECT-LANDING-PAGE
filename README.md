@@ -1,2 +1,2 @@
 # PROJECT-LANDING-PAGE
-Propsed by The Odin Project - Foundation course
+Proposed by The Odin Project - Foundation course
