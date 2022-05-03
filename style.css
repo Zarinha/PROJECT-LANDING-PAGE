@@ -55,11 +55,11 @@ ul{
     padding: 10px 0;
 }
 
-button {
-    padding: 5px 15px;
+.button1 {
+    padding: 7px 25px;
     background-color: #3882f6;
     border: none;
-    border-radius: 25px;
+    border-radius: 8px;
     color: #f9faf8;
     font-weight:bold;
 }
@@ -109,4 +109,46 @@ button {
     font-weight: lighter;
     font-style: italic;
     color: #1f2937;
+}
+.signup {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 70px 150px;
+}
+#bluebox {
+    height: 150px;
+    width: 300px;
+    background-color: #3882f6;
+    border-radius: 8px;
+    padding: 0px 300px;
+}
+
+.container {
+ display: flex;
+ justify-content: space-evenly;
+align-items: center;
+gap: 100px;
+color: #f9faf8;
+}
+
+.container h1{
+    font-size: 18px;
+    white-space: nowrap;
+}
+.container p {
+    font-size: 18px;
+    white-space: nowrap;
+}
+
+button {
+    background-color: #3882f6;
+    border-color: #e5e7eb;
+    border-style:solid;
+    border-radius: 8px;
+    border-width: 2px;
+    padding: 7px 25px;
+    white-space: nowrap;
+    color: #e5e7eb;
+    font-weight: bold;
 }
